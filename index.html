@@ -1,0 +1,11 @@
+city=["hyderbad","delhi","mumbai","nagpur","chennai"]
+print(city[2])
+print(city[0:3])
+city.sort()
+print(city)
+city.append("patna")
+print(city)
+city.remove("hyderbad")
+print(city)
+print(len(city))
+print("length of the list:",len(city))
